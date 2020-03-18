@@ -1,0 +1,30 @@
+ * {
+                font-size: 22px;
+            }
+            table {
+                width: 100%;
+                text-align: left;
+            }
+
+            body {
+                background-color: #58395240;
+            }
+
+            tr {
+                height: 60px;
+                font-size: 20px;
+            }
+
+            .titles {
+                text-decoration: underline;
+                font-size: 24px;
+                font-family: Calibri;
+            }
+            .main-title {
+                font-family: "Brush Script MT";
+                font-size: 40px;
+                text-align: center;
+            }
+            li {
+                margin: 8px;
+            }
