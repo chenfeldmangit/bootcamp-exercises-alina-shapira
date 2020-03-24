@@ -23,7 +23,6 @@
     display: none;
   }
 }
-
 .menu-item-inner-icon {
   display: inline;
 }
@@ -57,9 +56,16 @@
   width: 60%;
 }
 
-.trends {
+.right-container {
+  display: flex;
+  flex-direction: column;
   width: 20%;
 }
+.right-container .search {
+  background-color: rgba(128, 128, 128, 0.14);
+  border-radius: 5px;
+}
+
 .trends .trends-list {
   padding-left: 0px;
 }

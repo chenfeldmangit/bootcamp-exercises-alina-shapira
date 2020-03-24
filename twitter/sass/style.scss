@@ -22,7 +22,7 @@
 }
 
 
-@media all and (min-width: 600px) {
+@media all and (max-device-width: 600px) {
   .menu-item .inner-text {
     display: none;
   }
@@ -63,8 +63,18 @@
   width: 60%;
 }
 
-.trends {
+.right-container {
+  display: flex;
+  flex-direction: column;
   width: 20%;
+  .search {
+    background-color: rgba(128, 128, 128, 0.14);
+    border-radius: 5px;
+
+  }
+}
+.trends {
+
   .trends-list {
     padding-left: 0px;
 
